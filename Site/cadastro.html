@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cadastro</title>
+  <link href="cadastro.css" rel="stylesheet" type="text/css" />
+  <script src="cadastro.js" defer></script>
+</head>
+<body>
+
+  <header class="login_cadastro">
+    <img src="icone.png" class="icone" alt="Ícone">
+    <p class="ladoimg">CalorieExplorer</p>
+    <nav class="navbar">
+      <a href="pagina_principal.html">Home</a>
+      <a href="login.html">Login</a>
+      <a href="cadastro.html">Cadastro</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <div class="form">
+      <form id="formulario">
+        <div class="form-header">
+          <div class="title">
+            <h1>Cadastre-se</h1>
+          </div>
+        </div>
+
+        <div class="input-group">
+          <div class="input-box">
+            <label for="fullname">Nome Completo</label>
+            <input id="fullname" type="text" class="nome" placeholder="Digite seu nome" required />
+          </div>
+
+          <div class="input-box">
+            <label for="email">Email</label>
+            <input id="email" type="email" class="email" placeholder="Digite seu email" required />
+          </div>
+
+          <div class="input-box">
+            <label for="celular">Celular</label>
+            <input id="celular" type="tel" class="telefone" placeholder="(XX) X XXXX - XXXX" required />
+          </div>
+
+          <div class="input-box">
+            <label for="password">Senha</label>
+            <input id="password" type="password" class="senha" placeholder="Digite sua senha" required />
+          </div>
+        </div>
+
+        <div class="continue-button">
+          <button type="submit">Cadastrar</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>
